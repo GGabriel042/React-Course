@@ -5,7 +5,7 @@ function Header() {
   return(
     <header>
       <nav className="nav">
-        <h1>Hello, world</h1>
+        <img className="react-logo" src="react-logo.png"></img>
         <ul className="nav-items">
           <li>Login</li>
           <li>About</li>
@@ -18,7 +18,7 @@ function Header() {
 
 function Footer() {
   return(
-    <footer>
+    <footer className="footer">
       <small>Copyright</small>
     </footer>
   )
@@ -26,11 +26,15 @@ function Footer() {
 
 function MainContent() {
   return(
-    <ol>
-      <li>Estou</li>
-      <li>aprendendo</li>
-      <li>React</li>
-    </ol>
+    <div className="main-content">
+      <h1>Hello, world</h1>
+      <ol>
+        <li>Estou</li>
+        <li>aprendendo</li>
+        <li>React</li>
+      </ol>
+    </div>
+    
   )
 }
 
