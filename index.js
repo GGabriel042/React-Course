@@ -4,7 +4,14 @@
 function Header() {
   return(
     <header>
-      <nav><h1>Hello, world</h1></nav>
+      <nav className="nav">
+        <h1>Hello, world</h1>
+        <ul className="nav-items">
+          <li>Login</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </header>
   )
 }
